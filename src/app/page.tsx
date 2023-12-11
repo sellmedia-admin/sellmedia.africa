@@ -12,7 +12,7 @@ export default function Home() {
     const ca = "sellmedia.ca";
 
     if (window.location.href.includes(ca)) {
-      setCountry(ca);
+      setCountry("ca");
     }
   }, []);
 
